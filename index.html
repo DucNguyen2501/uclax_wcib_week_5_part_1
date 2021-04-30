@@ -14,7 +14,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+
   </head>
 
   <body class="text-center">
@@ -22,23 +22,21 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
-          <h3 class="masthead-brand">Week 5, Part 1</h3>
+          <img src="images/FunBrain-Logo.png" alt="logo of website" height="40">
           <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="#guessField">Play</a>
           </nav>
         </div>
       </header>
 
-      <main role="main" class="inner cover">
-
-        <h1 class="cover-heading">Number guessing game</h1>
-
+      <main class="inner-conent">
+        <img src="images/guess-the-number.jpeg" alt="Photo of game" width="600">
         <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
 
         <div class="form">
           <div class="form-group">
             <label for="guessField">Enter a guess:</label>
-            <input type="text" class="form-control guessField" id="guessField" aria-describedby="emailHelp" placeholder="Enter a guess">
+            <input type="text" class="form-control guessField" id="guessField" placeholder="Enter a guess">
           </div>
           <input type="submit" value="Submit guess" class="btn btn-primary guessSubmit">
         </div>
@@ -57,7 +55,7 @@
         </div>
       </footer>
     </div>
-
-	</body>
+    <script src="js/scripts.js"></script>
+  </body>
 
 </html>
